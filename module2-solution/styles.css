@@ -3,7 +3,9 @@
 	box-sizing: border-box;
 }
 
-
+.option {
+	border: 1px solid #00F35E;
+}
 
 
 /** Large Devices **/
