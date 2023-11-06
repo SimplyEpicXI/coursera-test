@@ -1,4 +1,4 @@
-// document.write("This text is generate by JS" + "<br/>" + "The below text can also be seen in the console" + "<br/>" "<br/>");
+// **** This page is only to provide browser content, indicating the solution that appears in the console *****
 
 document.write("This is JavaScript text." + "<br/>" + "<br/>" + "The text below can also be seen in the console." + "<br/>" + "To validate the solution, please review files: " + "<br/>" + "i. script.js" + "<br/>" + "ii. SpeakHello.js" + "<br/>" + "iii. SpeakGoodBye.js" + "<br/>" + "<br/>");
 for (i = 0; i < names.length; i++) {	

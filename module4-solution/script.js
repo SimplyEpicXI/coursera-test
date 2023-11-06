@@ -1,3 +1,20 @@
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+//**************** STEP 12 ****************************
+console.log("******** START ******** module4-solution");
+for (i = 0; i < names.length; i++) {	
+	var firstLetter = names[i].charAt(0);
+	firstLetter = firstLetter.toLowerCase();
+	if (firstLetter == "j") {
+ 		byeSpeaker.speak();
+	} else {
+		helloSpeaker.speak();
+	}
+}
+console.log("********* END *********");
+
+
+
 // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -34,7 +51,21 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+// var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+// //**************** STEP 12 ****************************
+// console.log("******** START ******** module4-solution");
+// for (i = 0; i < names.length; i++) {	
+// 	var firstLetter = names[i].charAt(0);
+// 	firstLetter = firstLetter.toLowerCase();
+// 	if (firstLetter == "j") {
+//  		byeSpeaker.speak();
+// 	} else {
+// 		helloSpeaker.speak();
+// 	}
+// }
+// console.log("********* END *********");
+
 
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
@@ -80,15 +111,3 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // }
 
 
-//**************** STEP 12 ****************************
-console.log("******** START ******** module4-solution");
-for (i = 0; i < names.length; i++) {	
-	var firstLetter = names[i].charAt(0);
-	firstLetter = firstLetter.toLowerCase();
-	if (firstLetter == "j") {
- 		byeSpeaker.speak();
-	} else {
-		helloSpeaker.speak();
-	}
-}
-console.log("********* END *********");

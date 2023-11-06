@@ -1,3 +1,15 @@
+(function (window) {
+  var byeSpeaker = {};
+  var speakWord = "Good Bye";
+
+  byeSpeaker.speak = function() {
+    console.log(speakWord + " " + names[i]);
+  }
+
+  window.byeSpeaker = byeSpeaker;
+
+})(window);
+
 // NOTE! The steps in this file are basically identical to the ones you
 // performed in the SpeakHello.js file.
 
@@ -25,14 +37,3 @@
 // xxxx.xxxx = byeSpeaker;
 
 
-(function (window) {
-  var byeSpeaker = {};
-  var speakWord = "Good Bye";
-
-  byeSpeaker.speak = function() {
-    console.log(speakWord + " " + names[i]);
-  }
-
-  window.byeSpeaker = byeSpeaker;
-
-})(window);
